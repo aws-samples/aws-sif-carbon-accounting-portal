@@ -1,0 +1,29 @@
+{
+	"name": "ConvertAreaToKwh",
+	"summary": "Convert Sqaure footage to KWH by building type",
+	"formula": "LOOKUP(:BuildingActivity,'BuildingToConsumption','BuildingActivity','BuildingConsumptionKwhPerSqFtPerYear',group='/')*:square_footage",
+	"parameters": [
+		{
+			"index": 0,
+			"key": "BuildingActivity",
+			"label": "BuildingActivity",
+			"description": "BuildingActivity",
+			"type": "string"
+		},
+		{
+			"index": 1,
+			"key": "square_footage",
+			"label": "square_footage",
+			"description": "square_footage",
+			"type": "number"
+		}
+	],
+	"outputs": [
+		{
+			"name": "khw",
+			"description": "khw",
+			"type": "number"
+		}
+	]
+
+}

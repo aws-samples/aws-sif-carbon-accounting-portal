@@ -1,0 +1,57 @@
+{
+	"name": "GetMwhByCalculationType",
+	"summary": "GetMwhByCalculationType",
+	"formula": "IF(:calculationType=='Area',#GetMwhByArea(:buildingArea,:buildingAreaUnit,:buildingActivityType),#ConvertElectricity(:electricityUsageUnit,:electricityUsage))",
+	"parameters": [
+            {
+                "index": 0,
+                "key": "calculationType",
+                "label":"",
+                "description":"",
+                "type": "string"
+            },
+            {
+                "index": 1,
+                "key": "electricityUsage",
+                "label":"",
+                "description":"",
+                "type": "number"
+            },
+            {
+                "index": 2,
+                "key": "electricityUsageUnit",
+                "label":"",
+                "description":"",
+                "type": "string"
+            },
+            {
+                "index": 3,
+                "key": "buildingArea",
+                "label":"",
+                "description":"",
+                "type": "number"
+            },
+            {
+                "index": 4,
+                "key": "buildingAreaUnit",
+                "label":"",
+                "description":"",
+                "type": "string"
+            },
+            {
+                "index": 5,
+                "key": "buildingActivityType",
+                "label":"",
+                "description":"",
+                "type": "string"
+            }
+            
+	],
+	"outputs": [
+		{
+			"name": "electricityUsageMwh",
+			"description": "electricityUsageMwh",
+			"type": "number"
+		}
+	]
+}

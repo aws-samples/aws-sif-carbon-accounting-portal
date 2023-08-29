@@ -1,0 +1,40 @@
+{
+	"name": "GetImpactByMhw",
+	"summary": "GetImpactByMwh",
+	"formula": "IMPACT(LOOKUP(:zipCode,'ZipCodeToEfactor','ZipCode','EgridSubRegion',group='/'),'KG C02 eq per MWh',:impactType)*:electricityMwh",
+	"parameters": [
+		{
+			"index": 0,
+			"key": "zipCode",
+			"label": "zipCode",
+			"description": "zipCode",
+			"type": "number"
+		},
+		{
+			"index": 1,
+			"key": "impactType",
+			"label": "impactType",
+			"description": "impactType",
+			"type": "string"
+		},
+		{
+			"index": 2,
+			"key": "electricityMwh",
+			"label": "electricityMwh",
+			"description": "electricityMwh",
+			"type": "number"
+		}
+	],
+	"outputs": [
+		{
+			"name": "area_sqft",
+			"description": "area_sqft",
+			"type": "number"
+		}
+	],
+	"tags": {
+		"version": "2023",
+		"subcategory": "Calculation",
+		"type": "equation"
+	}
+}

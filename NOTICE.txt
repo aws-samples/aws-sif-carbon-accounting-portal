@@ -1,0 +1,49 @@
+===========================================================================
+                          NOTICE FOR THIRD-PARTY DEPENDENCIES
+===========================================================================
+
+This project includes the following third-party software components, each with its respective licenses and attributions:
+
+1. AWS Amplify Auth
+   - Copyright (c) [Year], Amazon.com, Inc. or its affiliates.
+   - License: MIT License
+   - Website: https://github.com/aws-amplify/amplify-js
+
+2. AWS Amplify Core
+   - Copyright (c) [Year], Amazon.com, Inc. or its affiliates.
+   - License: MIT License
+   - Website: https://github.com/aws-amplify/amplify-js
+
+3. AWS Amplify Storage
+   - Copyright (c) [Year], Amazon.com, Inc. or its affiliates.
+   - License: MIT License
+   - Website: https://github.com/aws-amplify/amplify-js
+
+4. AWS SDK for JavaScript
+   - Copyright (c) [Year], Amazon.com, Inc. or its affiliates.
+   - License: Apache License 2.0
+   - Website: https://github.com/aws/aws-sdk-js
+
+5. Axios
+   - Copyright (c) [Year], Axios.
+   - License: MIT License
+   - Website: https://github.com/axios/axios
+
+6. AWS Cloud Development Kit (CDK)
+   - Copyright (c) [Year], Amazon.com, Inc. or its affiliates.
+   - License: Apache License 2.0
+   - Website: https://github.com/aws/aws-cdk
+
+7. Constructs
+   - Copyright (c) [Year], AWS CDK Contributors.
+   - License: Apache License 2.0
+   - Website: https://github.com/aws/constructs
+
+8. Source Map Support
+   - Copyright (c) [Year], Tim Disney.
+   - License: MIT License
+   - Website: https://github.com/evanw/node-source-map-support
+
+Each respective library's license and attribution information can be found within their corresponding source code repositories.
+
+===========================================================================

@@ -1,0 +1,29 @@
+{
+	"name": "ConvertElectricity",
+	"summary": "",
+	"formula": "LOOKUP(:ElectricityUnit,'ElectricityUnitConversion','ElectricityUnit','ElectricityConversionToMwh',group='/')*:electrictity_value",
+	"parameters": [
+		{
+			"index": 0,
+			"key": "ElectricityUnit",
+			"label": "ElectricityUnit",
+			"description": "ElectricityUnit",
+			"type": "string"
+		},
+		{
+			"index": 1,
+			"key": "electrictity_value",
+			"label": "electrictity_value",
+			"description": "electrictity_value",
+			"type": "number"
+		}
+	],
+	"outputs": [
+		{
+			"name": "converted_electricity",
+			"description": "converted_electricity",
+			"type": "number"
+		}
+	]
+
+}

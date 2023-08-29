@@ -1,0 +1,36 @@
+/*
+ * Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+ * SPDX-License-Identifier: MIT-0
+ */
+
+body {
+  height: 100%;
+  width: 100%;
+  background-image: url("../src/assets/bgImage.jpg"),
+    linear-gradient(rgba(228, 244, 252, 0), rgba(183, 226, 245, 0.333));
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  z-index: -1;
+  background-blend-mode: overlay;
+  background-attachment: fixed;
+}
+
+.App {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#top-nav {
+  position: sticky;
+  top: 0;
+  z-index: 1002;
+}

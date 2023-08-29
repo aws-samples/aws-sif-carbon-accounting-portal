@@ -1,0 +1,35 @@
+{
+	"name": "GetMwhByArea",
+	"summary": "GetMwhByArea",
+	"formula": "#ConvertElectricity('kwh',#ConvertAreaToKwh(:building_activity,#ConvertBuildingUnit(:building_unit,:building_area)))",
+	"parameters": [
+		{
+			"index": 0,
+			"key": "building_area",
+			"label": "building_area",
+			"description": "building_area",
+			"type": "number"
+		},
+		{
+			"index": 1,
+			"key": "building_unit",
+			"label": "building_unit",
+			"description": "building_unit",
+			"type": "string"
+		},
+		{
+			"index": 2,
+			"key": "building_activity",
+			"label": "building_activity",
+			"description": "building_activity",
+			"type": "string"
+		}
+	],
+	"outputs": [
+		{
+			"name": "area_sqft",
+			"description": "area_sqft",
+			"type": "number"
+		}
+	]
+}

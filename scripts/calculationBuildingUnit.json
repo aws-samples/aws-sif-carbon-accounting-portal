@@ -1,0 +1,29 @@
+{
+	"name": "ConvertBuildingUnit",
+	"summary": "Convert Sqaure footage to KWH by building type",
+	"formula": "LOOKUP(:BuildingUnit,'BuildingUnitConversion','BuildingAreaUnit','BuildingAreaConversionToSqFt',group='/')*:building_area",
+	"parameters": [
+		{
+			"index": 0,
+			"key": "BuildingUnit",
+			"label": "BuildingUnit",
+			"description": "BuildingUnit",
+			"type": "string"
+		},
+		{
+			"index": 1,
+			"key": "building_area",
+			"label": "building_area",
+			"description": "building_area",
+			"type": "number"
+		}
+	],
+	"outputs": [
+		{
+			"name": "area_sqft",
+			"description": "area_sqft",
+			"type": "number"
+		}
+	]
+
+}

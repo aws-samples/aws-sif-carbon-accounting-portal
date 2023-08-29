@@ -1,0 +1,7 @@
+export const CONFIG = {
+  account: "012345678901",
+  region: "us-east-1",
+  tenantId: "default",
+  adminEmail: "example@example.com",
+  environmentName: "dev"
+};
