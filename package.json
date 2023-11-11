@@ -29,7 +29,7 @@
     "@aws-sdk/types": "^3.347.0",
     "assert": "^2.0.0",
     "aws-cdk-lib": "^2.75.1",
-    "axios": "^1.4.0",
+    "axios": "^1.6.0",
     "cdk": "^2.78.0-alpha.0",
     "cdk-nag": "^2.27.83",
     "constructs": "^10.0.0",
